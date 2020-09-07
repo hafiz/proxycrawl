@@ -1,6 +1,6 @@
 # ProxyCrawl
 
-## Instructions After Cloned
+## Instructions
 
 1.  bundle install
 2. rake db:create:all
