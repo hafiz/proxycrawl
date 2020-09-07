@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails'
 # Use mysql as the database for Active Record
@@ -30,18 +29,19 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem "slim-rails"
 gem "bootstrap-sass", ">= 3.4.1"
 gem 'font-awesome-sass', '~> 4.6.2'
 
-gem 'devise'
 gem 'active_decorator'
+gem "httparty"
+gem "nokogiri"
+gem 'whenever', require: false
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platform: :mri
   gem 'rspec-rails', '~> 3.5'
   gem 'factory_bot_rails'
+  gem 'shoulda-matchers'
   gem 'faker'
   gem 'capybara'
   gem 'database_cleaner'
@@ -53,6 +53,7 @@ group :development, :test do
   gem 'pry-rails'
   gem 'pry-doc'
   gem 'pry-byebug'
+  gem 'rb-readline'
 end
 
 group :development do

@@ -1,0 +1,37 @@
+<% @products.each do |product|%>
+<div class="col-xs-12 col-md-6">
+  <div class="prod-info-main prod-wrap clearfix">
+    <div class="row">
+        <div class="col-md-5 col-sm-12 col-xs-12">
+          <div class="product-image">
+            <img src="<%= product.image_url %>" class="img-responsive rotprod">
+            <span class="tag2 hot">
+              HOT
+            </span>
+          </div>
+        </div>
+        <div class="col-md-7 col-sm-12 col-xs-12">
+        <div class="product-deatil">
+            <h5 class="name">
+              <a href="#">
+                <%= product.name %>
+              </a>
+            </h5>
+            <p class="rating-container">
+              <span>Rating: <%= product.rating %></span>
+            </p>
+            <span class="tag1"></span>
+        </div>
+        <div class="description">
+          <p>Rating Count: <%= product.rating_count %></p>
+        </div>
+        <div class="product-info smart-form">
+          <div class="row">
+            <div class="col-md-12"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<% end %>

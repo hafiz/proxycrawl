@@ -1,23 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Rails5Boilerplate</title>
+    <title>ProxyCrawl</title>
     <%= csrf_meta_tags %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
-    <div class="container">
-      <% if notice %>
-          <p class="notice"><%= notice %></p>
-      <% end %>
-      <% if alert %>
-          <p class="alert"><%= alert %></p>
-      <% end %>
-
-      <%= yield %>
-    </div>
-  </body>
+<body>
+  <div class="container">
+    <%= yield %>
+  </div>
+</div>
+</body>
 </html>

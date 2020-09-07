@@ -1,68 +1,8 @@
-# Rails5 Boilerplate
+# ProxyCrawl Test
 
-This is starter application template for Ruby on Rails 5.
+## Instructions
 
-![Rails5 Boilerplate Top Page](https://raw.githubusercontent.com/takp/rails5-boilerplate/master/docs/images/rails5-top-page.png "Rails5 Boilerplate")
-
-## Versions
-
-- Rails 5.2.1
-
-## Features
-
-- [Ruby on Rails](http://rubyonrails.org/)
-- [Twitter Bootstrap 3](https://github.com/twbs/bootstrap-sass)
-- [FontAwesome](https://github.com/FortAwesome/font-awesome-sass)
-- [Slim Template Engine](http://slim-lang.com/)
-- MySQL
-- [Rspec](https://github.com/rspec/rspec-rails)
-- [Devise](https://github.com/plataformatec/devise)
-- [ActiveDecorator](https://github.com/amatsuda/active_decorator)
-
-## Architecture
-
-MVC + Service + Decorator
-
-- Models: app/models
-- Views: app/views
-- Controllers: app/controllers
-- Services: app/services
-- Decorators: app/decorators
-
-## Quick Start
-
-```
-$ git clone git@github.com:takp/rails5-boilerplate.git
-$ cd rails5-boilerplate
-```
-
-### Run
-
-- Build
-
-```bash
-$ docker-compose build
-```
-
-- Initialize database
-
-```bash
-$ docker-compose run app rake db:create
-$ docker-compose run app rake db:migrate
-```
-
-- Run
-
-```bash
-$ docker-compose up
-```
-
-and go to [http://localhost:3000/](http://localhost:3000/).
-
-## How to run the test suite
-
-```
-$ bundle exec rspec
-```
-
-## Deployment instructions
+1. Clone/fork this repository.
+2. Read [Project to Build](#project-to-build) section to see what you have to build in the test.
+3. Make commits to the repository like you would normally do on your daily job.
+4. Once you are done, if you've forked this project, you can send us the link to the Github project. If you haven't, you can send us the zip file of the project (make sure it includes the `.git` folder).
